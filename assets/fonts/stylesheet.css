@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Avalon";
+  src: url("./avalon/avalon-bold.eot#iefix") format("embedded-opentype"), url("./avalon/avalon-bold.woff") format("woff"), url("./avalon/avalon-bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Shentox";
+  src: url("./shentox/shentox-medium.eot#iefix") format("embedded-opentype"), url("./shentox/shentox-medium.woff2") format("woff2"), url("./shentox/shentox-medium.woff") format("woff"), url("./shentox/shentox-medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Google-Sans";
+  src: url("./google-sans/google-sans-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Google-Sans";
+  src: url("./google-sans/google-sans-medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}

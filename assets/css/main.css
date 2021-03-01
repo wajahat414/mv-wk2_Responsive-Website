@@ -64,3 +64,89 @@ nav ul {
   align-items: center;
   justify-content: center;
 }
+
+@import url("../fonts/stylesheet.css");
+
+ul {
+  list-style: none;
+}
+
+footer.page-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Links ============== */
+.footer-links {
+  background-color: #131313;
+  padding: 35px 20px;
+}
+
+ul.social-links {
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul.social-links li {
+  margin: 3px 3px;
+  display: inline-block;
+}
+
+.social-links .social-icon {
+  padding: 12px;
+  background-color: #333;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links .social-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: #fff;
+}
+
+ul.footer-nav-links {
+  padding: 0;
+  text-align: center;
+}
+
+ul.footer-nav-links li {
+  text-align: center;
+  display: inline-block;
+  margin: 0 4px;
+}
+
+ul.footer-nav-links li a {
+  text-decoration: none;
+  color: #aaa;
+  font-family: "Shentox", sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* Footer Legal ================ */
+.footer-legal {
+  padding: 32.5px 20px;
+  background-color: #000;
+  color: #aaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Google-Sans", Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.footer-logo {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
