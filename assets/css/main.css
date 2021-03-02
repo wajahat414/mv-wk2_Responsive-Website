@@ -29,6 +29,11 @@ header.main-header {
   left: 0;
   z-index: 10;
   background: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+}
+
+a {
+  text-decoration: none;
 }
 
 nav.header-nav {
@@ -92,6 +97,40 @@ nav ul {
   padding: 0 6px;
 }
 
+.main-story-container h2 a {
+  color: red;
+}
+
+.main-story-container li a {
+  color: red;
+  margin-top: 10px;
+  display: block;
+}
+
+ul.footer-nav-links li a {
+  text-decoration: none;
+  color: #aaa;
+  font-family: "Shentox", sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* Main Story Container ========== */
+.main-story-container {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.main-story-container li a:hover {
+  color: black;
+}
+
+.main-story-container h2 a:hover {
+  color: black;
+}
+
 /* Footer Links ============== */
 footer.page-footer {
   display: flex;
@@ -145,20 +184,13 @@ ul.footer-nav-links li {
   margin: 0 4px;
 }
 
-ul.footer-nav-links li a {
-  text-decoration: none;
-  color: #aaa;
-  font-family: "Shentox", sans-serif;
-  font-size: 100%;
-  font-weight: 500;
-  line-height: 24px;
-}
-
 /* Main ====================== */
 main.main-area {
   min-height: 100vh;
   padding: 112px 0 331px;
   box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1192px;
 }
 
 .highlights {
@@ -272,4 +304,99 @@ main.main-area {
   height: 9px;
   margin-right: 1px;
   vertical-align: baseline;
+}
+
+/* Main Area Continued =========== */
+.main-story {
+  width: 100%;
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding: 8px;
+}
+
+.first-block {
+  width: 100%;
+  background-color: #f42;
+  height: 2.5em;
+}
+
+.second-block {
+  width: 100%;
+  background-color: #ffebe7;
+  height: 4em;
+}
+
+.third-block {
+  background-color: #fffaf8;
+  width: 100%;
+  height: 5em;
+  border-bottom: 1px solid #ffcdc2;
+}
+
+.position-img {
+  height: 60px;
+  width: 60px;
+  margin: 10.66px;
+  position: absolute;
+}
+
+.first-block h4 {
+  color: white;
+}
+
+.text-padding {
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  font-size: 18px;
+}
+
+.fourth-block {
+  background-color: #fffaf8;
+}
+
+.padding-fourth {
+  display: block;
+  padding: 10px 16px 16px 16px;
+  text-decoration: none;
+  color: #555;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.padding-fourth span {
+  color: #aaa;
+}
+
+.position-items-seconf-block {
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+}
+
+.opaque-fonts {
+  opacity: 0.5;
+  font-size: 11px;
+}
+
+.font-customize {
+  font-size: 13px;
+  color: #555;
+  line-height: 22px;
+}
+
+#tag-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+  transform: rotateY(180deg);
+}
+
+.set-padding {
+  padding: 16px;
+}
+
+#suit-img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
