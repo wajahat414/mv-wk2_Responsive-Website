@@ -1,0 +1,28 @@
+@media only screen and (min-width: 768px) {
+  .main-story-container li a {
+    color: #f42;
+    display: block;
+    border-right: 1px solid #f42;
+    float: left;
+    padding-right: 11px;
+    margin-right: 11px;
+  }
+
+  .main-story-container li:last-of-type a {
+    border-right: none;
+  }
+
+  .border-right {
+    border-right: none;
+  }
+
+  .main-story-container {
+    grid-template-columns: repeat(3, calc(33.333333% - 20px));
+    max-width: 100%;
+    column-gap: 20px;
+  }
+
+  .headings {
+    grid-column: 1 / span 3;
+  }
+}

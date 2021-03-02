@@ -98,13 +98,15 @@ nav ul {
 }
 
 .main-story-container h2 a {
-  color: red;
+  color: #f42;
 }
 
 .main-story-container li a {
-  color: red;
+  color: #f42;
   margin-top: 10px;
+  margin-right: 23px;
   display: block;
+  font-size: 14px;
 }
 
 ul.footer-nav-links li a {
@@ -121,6 +123,7 @@ ul.footer-nav-links li a {
   display: -ms-grid;
   display: grid;
   grid-template-columns: auto;
+  padding: 120px 20px 40px;
 }
 
 .main-story-container li a:hover {
@@ -129,6 +132,16 @@ ul.footer-nav-links li a {
 
 .main-story-container h2 a:hover {
   color: black;
+}
+
+.headings {
+  margin-bottom: 20px;
+}
+
+.headings h2 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  font-family: "Avalon", sans-serif;
 }
 
 /* Footer Links ============== */
@@ -252,7 +265,7 @@ main.main-area {
   display: flex;
 }
 
-.highlights .news-highlight .highlight-content ul li + li {
+.highlights .news-highlight .highlight-content ul li+li {
   margin-left: 6px;
 }
 
@@ -313,7 +326,6 @@ main.main-area {
   display: flex;
   flex-direction: column;
   margin-top: 10px;
-  padding: 8px;
 }
 
 .first-block {
@@ -362,7 +374,8 @@ main.main-area {
   color: #555;
   font-size: 12px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 16px;
+  height: 50px;
 }
 
 .padding-fourth span {
