@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: rgb(230, 173, 204);
+  }
+
+  li a {
+    color: red;
+    margin-top: 10px;
+    display: block;
+    border-right: 1px solid red;
+    float: left;
+    padding: 0 10px;
+  }
+
+  .border-right {
+    border-right: none;
+  }
+
+  .main-story-container {
+    grid-template-columns: 30% 30% 30%;
+    max-width: 100%;
+    column-gap: 10px;
+  }
+
+  .headings {
+    grid-column: 1 / span 3;
+  }
+
+  ul {
+    list-style: none;
+    display: block;
+    position: relative;
+    left: 20%;
+  }
+
+  h2 {
+    float: left;
+  }
+}

@@ -1,0 +1,28 @@
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+
+  li a {
+    color: red;
+    margin-top: 10px;
+    display: block;
+    border-right: 1px solid red;
+    float: left;
+    padding: 0 10px;
+  }
+
+  .border-right {
+    border-right: none;
+  }
+
+  .main-story-container {
+    grid-template-columns: 50% 50%;
+    max-width: 70%;
+    column-gap: 10px;
+  }
+
+  .headings {
+    grid-column: 1 / span 2;
+  }
+}

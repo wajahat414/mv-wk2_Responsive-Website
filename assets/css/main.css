@@ -258,7 +258,8 @@ main {
   color: #555;
   font-size: 12px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 16px;
+  height: 50px;
 }
 
 .padding-fourth span {
