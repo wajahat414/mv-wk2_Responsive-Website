@@ -25,4 +25,23 @@
   .headings {
     grid-column: 1 / span 3;
   }
+
+  .highlights {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .full-height {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .footer-legal {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .full-height .cover-title {
+    font-size: 40px;
+  }
 }

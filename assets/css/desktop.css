@@ -36,4 +36,8 @@
   h2 {
     float: left;
   }
+
+  .fourth-story {
+    display: flex;
+  }
 }

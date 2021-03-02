@@ -312,6 +312,10 @@ main.main-area {
   line-height: 20px;
 }
 
+.footer-legal span {
+  margin: 0 6px;
+}
+
 .footer-logo {
   display: inline-block;
   height: 9px;
@@ -412,4 +416,13 @@ main.main-area {
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.fourth-story {
+  display: none;
+}
+
+.full-height {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
 }
