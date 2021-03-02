@@ -1,8 +1,15 @@
+@import url("../fonts/stylesheet.css");
+
 * {
   margin: 0;
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+/* Header ================= */
 header {
   width: 100%;
   display: flex;
@@ -10,7 +17,7 @@ header {
   height: 7em;
 }
 
-nav {
+nav.header-nav {
   width: 100%;
   display: flex;
   height: 43%;
@@ -37,46 +44,48 @@ nav ul {
 }
 
 .icon-size {
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
   color: #ccc;
-  background-color: red;
 }
 
 .right-icons {
-  background-color: lawngreen;
-  width: 6em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .custom-anchor {
-  width: 10px;
-  height: 50px;
-  background-color: lemonchiffon;
+  padding: 16px;
+  border-left: 1px solid #eee;
 }
 
 .announcement {
-  background-color: hsl(50, 100%, 60%);
+  background-color: #fd3;
   height: 57%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-@import url("../fonts/stylesheet.css");
-
-ul {
-  list-style: none;
-}
-
-footer.page-footer {
-  display: flex;
-  flex-direction: column;
+.announcement-text {
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  padding: 0 6px;
 }
 
 /* Footer Links ============== */
+footer.page-footer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+}
+
 .footer-links {
   background-color: #131313;
   padding: 35px 20px;
