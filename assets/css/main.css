@@ -36,6 +36,85 @@ a {
   text-decoration: none;
 }
 
+.option-left ul li {
+  float: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.option-right ul li {
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.main-story-container h2 a {
+  color: #f42;
+}
+
+.main-story-container li a {
+  color: #f42;
+  margin-top: 10px;
+  margin-right: 23px;
+  display: block;
+  font-size: 14px;
+}
+
+ul.footer-nav-links li a {
+  text-decoration: none;
+  color: #aaa;
+  font-family: "Shentox", sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.option-menu ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}
+
+.middle-menu ul li a {
+  color: rgb(170, 170, 170);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Shentox", sans-serif;
+}
+
+.main-story-container li a:hover {
+  color: black;
+}
+
+.main-story-container h2 a:hover {
+  color: black;
+}
+
+.middle-menu {
+  display: none;
+}
+
+.option-menu ul li a:hover {
+  color: white;
+  font-size: 13px;
+}
+
+.option-menu {
+  width: 100%;
+  height: 30px;
+  background-color: #000;
+  display: none;
+  justify-content: space-between;
+}
+
+.middle-menu ul li {
+  float: left;
+  padding: 15px;
+}
+
+.middle-menu ul li a:hover {
+  color: black;
+}
+
 nav.header-nav {
   width: 100%;
   display: flex;
@@ -79,6 +158,11 @@ nav ul {
   border-left: 1px solid #eee;
 }
 
+.custom-anchor2 {
+  padding: 16px;
+  border-left: 1px solid #eee;
+}
+
 .announcement {
   background-color: #fd3;
   height: 57%;
@@ -97,27 +181,6 @@ nav ul {
   padding: 0 6px;
 }
 
-.main-story-container h2 a {
-  color: #f42;
-}
-
-.main-story-container li a {
-  color: #f42;
-  margin-top: 10px;
-  margin-right: 23px;
-  display: block;
-  font-size: 14px;
-}
-
-ul.footer-nav-links li a {
-  text-decoration: none;
-  color: #aaa;
-  font-family: "Shentox", sans-serif;
-  font-size: 100%;
-  font-weight: 500;
-  line-height: 24px;
-}
-
 /* Main Story Container ========== */
 .main-story-container {
   display: -ms-grid;
@@ -126,14 +189,6 @@ ul.footer-nav-links li a {
   padding: 120px 20px 40px;
   max-width: 1192px;
   margin: 0 auto;
-}
-
-.main-story-container li a:hover {
-  color: black;
-}
-
-.main-story-container h2 a:hover {
-  color: black;
 }
 
 .headings {
@@ -303,7 +358,7 @@ main.main-area {
   display: flex;
 }
 
-.highlights .news-highlight .highlight-content ul li+li {
+.highlights .news-highlight .highlight-content ul li + li {
   margin-left: 6px;
 }
 

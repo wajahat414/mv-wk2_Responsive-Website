@@ -49,4 +49,20 @@
   .highlight-logo-date {
     display: block;
   }
+
+  .option-menu {
+    display: flex;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .middle-menu {
+    margin-left: 0;
+  }
+
+  .option-left {
+    margin-left: 0;
+  }
 }

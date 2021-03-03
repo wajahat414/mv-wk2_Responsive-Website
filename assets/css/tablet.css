@@ -46,3 +46,30 @@
     font-size: 40px;
   }
 }
+
+.option-menu {
+  display: flex;
+}
+
+.custom-anchor2 {
+  display: none;
+}
+
+.middle-menu {
+  margin-left: 100px;
+  display: block;
+}
+
+.option-left {
+  margin-left: 100px;
+}
+
+.header-logo {
+  position: absolute;
+  height: 43%;
+}
+
+#logo {
+  width: 5.1em;
+  bottom: 25px;
+}
