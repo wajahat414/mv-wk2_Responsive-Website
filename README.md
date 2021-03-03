@@ -1,36 +1,40 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Porject: building with responsive design
+# Project: building with responsive design
 
-> developed new york times clone
+> A project that explores responsive web design using the mobile first design approach. A simple clone of [this](https://perma.cc/M5ZV-Q2D6) TNW post
 
-![screenshot](/img/screenshot.png?raw=true "Optional Title")
-
+![screenshot](./screenshot.png?raw=true "Optional Title")
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Floats and positioning
+- Grid Positioning
 - Flex-box
-- box-model
+- Media Queries
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+You can check out our live demo here [here](https://wajahat414.github.io/mv-wk2_Responsive-Website/)
 
 ## Getting Started
 
+To get a local copy up and running follow these simple example steps.
 
-
+- Clone the project unto your local machine
+- Change directory to the folder.
+- Open index.html with a liveserver or directly in your browser
 
 ## Authors
 
 👤 **Author1**
 
-
 https://github.com/wajahat414
+
+👤 **Author2**
+
+https://github.com/joshuaivie
 
 ## 🤝 Contributing
 
@@ -41,7 +45,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 
 ## 📝 License
 
