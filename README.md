@@ -4,7 +4,7 @@
 
 > A project that explores responsive web design using the mobile first design approach. A simple clone of [this](https://perma.cc/M5ZV-Q2D6) TNW post
 
-![screenshot](./readme/screenshot.png?raw=true "Optional Title")
+![screenshot](./screenshot.png?raw=true "Optional Title")
 
 Additional description about the project and its features.
 
