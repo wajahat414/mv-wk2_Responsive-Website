@@ -124,6 +124,8 @@ ul.footer-nav-links li a {
   display: grid;
   grid-template-columns: auto;
   padding: 120px 20px 40px;
+  max-width: 1192px;
+  margin: 0 auto;
 }
 
 .main-story-container li a:hover {
@@ -203,7 +205,6 @@ main.main-area {
   padding: 112px 0 331px;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1192px;
 }
 
 .highlights {
@@ -211,6 +212,43 @@ main.main-area {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(3, 1fr);
+}
+
+.highlight-logo {
+  background: url('./assets/img/logo.svg') no-repeat;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  right: 24px;
+  height: 100%;
+  max-height: 112px;
+  max-width: 50%;
+  text-align: right;
+  background-size: contain;
+  display: none;
+}
+
+.highlight-logo-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  background: linear-gradient(155deg, #f42, #fff0 75%);
+  display: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.news-highlight.full-height:hover .highlight-logo-gradient {
+  opacity: 0;
+}
+
+.highlight-logo-date {
+  color: #fff;
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  z-index: 3;
+  display: none;
 }
 
 .highlights .news-highlight {
@@ -265,7 +303,7 @@ main.main-area {
   display: flex;
 }
 
-.highlights .news-highlight .highlight-content ul li + li {
+.highlights .news-highlight .highlight-content ul li+li {
   margin-left: 6px;
 }
 
