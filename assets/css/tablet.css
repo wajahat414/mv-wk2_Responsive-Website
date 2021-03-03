@@ -44,4 +44,31 @@
   .full-height .cover-title {
     font-size: 40px;
   }
+
+  .option-menue {
+    display: flex;
+  }
+
+  .custom-anchor2 {
+    display: none;
+  }
+
+  .middle-menue {
+    margin-left: 100px;
+    display: block;
+  }
+
+  .option-left {
+    margin-left: 100px;
+  }
+
+  .header-logo {
+    position: absolute;
+    height: 43%;
+  }
+
+  #logo {
+    width: 5.1em;
+    bottom: 25px;
+  }
 }

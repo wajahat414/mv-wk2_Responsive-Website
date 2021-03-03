@@ -36,4 +36,20 @@
   .fourth-story {
     display: flex;
   }
+
+  .option-menue {
+    display: flex;
+  }
+
+  .header-logo {
+    display: none;
+  }
+
+  .middle-menue {
+    margin-left: 0;
+  }
+
+  .option-left {
+    margin-left: 0;
+  }
 }
