@@ -16,7 +16,15 @@ Additional description about the project and its features.
 
 ## Live Demo
 
+You can check out our live demo here [here](https://wajahat414.github.io/mv-wk2_Responsive-Website/)
+
 ## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+- Clone the project unto your local machine
+- Change directory to the folder.
+- Open index.html with a liveserver or directly in your browser
 
 ## Authors
 
