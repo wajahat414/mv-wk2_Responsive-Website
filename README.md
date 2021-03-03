@@ -1,36 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Porject: building with responsive design
+# Project: building with responsive design
 
 > developed new york times clone
 
-![screenshot](/img/screenshot.png?raw=true "Optional Title")
-
+![screenshot](./readme/screenshot.png?raw=true "Optional Title")
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Floats and positioning
+- Grid Positioning
 - Flex-box
-- box-model
+- Media Queries
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
 ## Getting Started
-
-
-
 
 ## Authors
 
 👤 **Author1**
 
-
 https://github.com/wajahat414
+
+👤 **Author2**
+
+https://github.com/joshuaivie
 
 ## 🤝 Contributing
 
@@ -41,7 +37,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 
 ## 📝 License
 

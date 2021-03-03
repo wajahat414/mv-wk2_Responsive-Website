@@ -265,7 +265,7 @@ main.main-area {
   display: flex;
 }
 
-.highlights .news-highlight .highlight-content ul li+li {
+.highlights .news-highlight .highlight-content ul li + li {
   margin-left: 6px;
 }
 
@@ -401,7 +401,7 @@ main.main-area {
   line-height: 22px;
 }
 
-#tag-img {
+.tag-img {
   width: 16px;
   height: 16px;
   margin-right: 7px;
@@ -412,7 +412,7 @@ main.main-area {
   padding: 16px;
 }
 
-#suit-img {
+.suit-img {
   width: 16px;
   height: 16px;
   margin-right: 10px;
