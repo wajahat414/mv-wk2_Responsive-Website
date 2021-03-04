@@ -101,4 +101,11 @@
   .discount-tag {
     display: block;
   }
+
+  /*      CATEGORIES MEDIA QUERY RULES      */
+
+  .categories {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
 }
