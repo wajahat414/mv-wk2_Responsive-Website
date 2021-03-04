@@ -1,5 +1,10 @@
 @import url("../fonts/stylesheet.css");
 
+@font-face {
+  font-family: liberations-sans;
+  src: url(/assets/fonts/liberation-sans.bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -260,6 +265,8 @@ main.main-area {
   max-width: 1192px;
 }
 
+/*  Highlights */
+
 .highlights {
   padding: 5px;
   display: grid;
@@ -350,6 +357,64 @@ main.main-area {
   scale: 0.875;
   opacity: 0.6;
   margin-right: 4px;
+}
+
+/*  latest news */
+
+.latest-news {
+  margin: 0 20px;
+  font-family: liberations-sans;
+}
+
+.latest-news h2 {
+  color: red;
+  margin: 20px 0 10px;
+  width: 100%;
+}
+
+.news1 a {
+  color: #000;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-weight: bold;
+}
+
+.news1 a:hover {
+  color: red;
+}
+
+.news1 {
+  height: 88px;
+  width: 100%;
+}
+
+.news1 ul li a:hover {
+  color: black;
+}
+
+.news1 ul li a {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.news1 ul li {
+  color: #aaa;
+  font-size: 12px;
+  float: left;
+  margin: 7px 7px 7px 0;
+}
+
+.news-img-div {
+  width: 75px;
+  height: 75px;
+  background-image: url(/assets/img/news1-img.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  margin-right: 15px;
 }
 
 /* Footer Legal ================ */

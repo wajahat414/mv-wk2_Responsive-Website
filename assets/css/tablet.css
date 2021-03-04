@@ -71,4 +71,30 @@
     width: 5.1em;
     bottom: 25px;
   }
+
+  /* latest News start here */
+
+  .latest-news {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 10px;
+  }
+
+  .news1 {
+    flex: 0 0 33.333333%;
+    height: 212px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .news-img-div {
+    width: 100%;
+    height: 125px;
+  }
+
+  .latest-news h2 {
+    width: 100%;
+    margin: 20px 10px auto;
+  }
 }
