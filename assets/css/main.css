@@ -550,6 +550,7 @@ main.main-area {
 
 .categories {
   display: grid;
+  padding: 0 1rem;
 }
 
 .categories-article-main-story {
@@ -569,7 +570,7 @@ main.main-area {
 
 .categories-article header h2,
 .categories-article header a {
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
   color: #f42;
 }
 
