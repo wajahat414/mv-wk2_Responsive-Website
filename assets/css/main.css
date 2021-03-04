@@ -484,28 +484,102 @@ main.main-area {
 /* Categories =========== */
 
 .categories-article-main-story {
-  background-image: url(../img/gamestop.jpg);
-  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/gamestop.jpg);
   background-size: cover;
-  padding-top: 75%;
+  padding: 75% 1rem 1rem 1rem;
+  color: #fff;
   display: flex;
   flex-direction: column;
+}
+
+.categories-article header {
+  font-family: Avalon, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.categories-article header h2,
+.categories-article header a {
+  margin-bottom: 1rem;
+  color: #f42;
+}
+
+.categories-article > header a:hover {
+  color: #000;
+}
+
+.categories-article-main-story > span {
+  font-family: Shentox, sans-serif;
+}
+
+.categories-article-main-story > a > span {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.categories-article-main-story aside {
+  font-size: 0.7rem;
+  color: #aaa;
+}
+
+.categories-article-main-story > aside > a {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.categories-article-main-story > aside > a:hover {
+  color: #fff;
 }
 
 .categories-article-latest-header {
+  background-color: #fff3e9;
   display: flex;
-  height: 5rem;
+  justify-content: space-between;
+  height: 6rem;
 }
 
 .categories-article-latest-header-text {
+  font-family: Shentox, sans-serif;
+  color: #f42;
+  font-size: 0.8rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
+}
+
+.categories-article-latest-header-text a {
+  color: #f42;
+  font-size: 1rem;
+  font-weight: bolder;
 }
 
 .categories-article-latest-header-img-container {
   background-image: url(../img/alibaba.jpg);
   background-size: cover;
-  background-position: -11.5rem;
-  height: 5rem;
+  background-position: -14rem;
+  height: 100%;
   width: 7rem;
+}
+
+.categories-article-latest-news-link-list {
+  padding: 1rem;
+}
+
+.categories-article-latest-news-link-list a {
+  color: #555;
+  font-size: 0.82rem;
+}
+
+.categories-article-latest-news-link-list ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f42; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.categories-article-latest-news-link-list ul li {
+  padding: 0.25rem 0;
 }
