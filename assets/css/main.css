@@ -548,6 +548,10 @@ main.main-area {
 
 /* Categories =========== */
 
+.categories {
+  display: grid;
+}
+
 .categories-article-main-story {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/gamestop.jpg);
   background-size: cover;
