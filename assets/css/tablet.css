@@ -97,4 +97,8 @@
     width: 100%;
     margin: 20px 10px auto;
   }
+
+  .discount-tag {
+    display: block;
+  }
 }
