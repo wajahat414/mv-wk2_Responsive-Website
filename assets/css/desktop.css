@@ -14,8 +14,8 @@
 
   .main-story-container {
     grid-template-columns: 24% 24% 24% 24%;
-    max-width: 100%;
-    column-gap: 10px;
+    max-width: 1192px;
+    margin: 0 auto;
   }
 
   .headings {
@@ -37,7 +37,20 @@
     display: flex;
   }
 
-  .option-menue {
+  .highlights .news-highlight.full-height .highlight-content .cover-title {
+    font-size: 56px;
+    letter-spacing: -0.85px;
+    line-height: 56px;
+    margin-bottom: 14px;
+  }
+
+  .highlight-logo,
+  .highlight-logo-gradient,
+  .highlight-logo-date {
+    display: block;
+  }
+
+  .option-menu {
     display: flex;
   }
 
@@ -45,7 +58,7 @@
     display: none;
   }
 
-  .middle-menue {
+  .middle-menu {
     margin-left: 0;
   }
 
