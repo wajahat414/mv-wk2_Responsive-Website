@@ -15,7 +15,7 @@ Additional description about the project and its features.
 - Media Queries
 
 ## Live Demo
-https://wajahat414.github.io/mv-wk2_Responsive-Website
+https://wajahat414.github.io/mv-wk2_Responsive-Website/. 
 
 ## Getting Started
 
