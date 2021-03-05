@@ -13,6 +13,7 @@ Additional description about the project and its features.
 - Grid Positioning
 - Flex-box
 - Media Queries
+- floats
 
 ## Live Demo
 https://wajahat414.github.io/mv-wk2_Responsive-Website/. 
