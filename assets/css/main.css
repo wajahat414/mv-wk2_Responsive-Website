@@ -1,5 +1,10 @@
 @import url("../fonts/stylesheet.css");
 
+@font-face {
+  font-family: liberations-sans;
+  src: url(/assets/fonts/liberation-sans.bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +12,10 @@
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -18,34 +27,49 @@ body {
   margin: 0;
 }
 
-/* Header ================= */
-header.main-header {
-  width: 100%;
+.latest-news h2 {
+  margin: 20px 0 10px;
   display: flex;
-  flex-direction: column;
-  height: 7em;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  background: #fff;
-  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
 }
 
-a {
-  text-decoration: none;
+.news1 a {
+  color: #000;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
 }
 
-.option-left ul li {
-  float: left;
-  margin-left: 10px;
-  padding: 5px;
+.categories-article-latest-news-link-list a {
+  color: #555;
+  font-size: 0.82rem;
 }
 
-.option-right ul li {
-  float: left;
-  margin-right: 10px;
-  padding: 5px;
+.categories-article-latest-header-text a {
+  color: #f42;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.categories-article-main-story > aside > a {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.headings h2 {
+  font-size: 28px;
+  letter-spacing: -0.5px;
+  font-family: "Avalon", sans-serif;
+}
+
+.categories-article header h2,
+.categories-article header a {
+  margin-bottom: 1.2rem;
+  color: #f42;
+}
+
+.latest-news h2 a {
+  color: red;
+  width: 100%;
 }
 
 .main-story-container h2 a {
@@ -58,6 +82,23 @@ a {
   margin-right: 23px;
   display: block;
   font-size: 14px;
+}
+
+.news1 ul li a {
+  color: #aaa;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.option-menue ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}
+
+.middle-menue ul li a {
+  color: rgb(170, 170, 170);
+  font-size: 15px;
+  font-weight: 400;
 }
 
 ul.footer-nav-links li a {
@@ -81,6 +122,37 @@ ul.footer-nav-links li a {
   font-family: "Shentox", sans-serif;
 }
 
+.categories-article > header a:hover {
+  color: #000;
+}
+
+.categories-article-main-story > aside > a:hover {
+  color: #fff;
+}
+
+/*  latest news */
+
+.latest-news {
+  margin: 40px 20px 0 20px;
+}
+
+.align-seemore {
+  text-align: end;
+  font-size: 0.5em;
+  font-style: normal;
+  font-weight: 100;
+  margin-top: 11px;
+}
+
+.latest-news h2 a:hover {
+  color: black;
+}
+
+.news1 {
+  height: 88px;
+  width: 100%;
+}
+
 .main-story-container li a:hover {
   color: black;
 }
@@ -89,7 +161,99 @@ ul.footer-nav-links li a {
   color: black;
 }
 
-.middle-menu {
+.news1 ul li a:hover {
+  color: black;
+}
+
+ul.footer-nav-links li a:hover {
+  color: white;
+}
+
+.news1 ul li {
+  color: #aaa;
+  font-size: 12px;
+  float: left;
+  margin: 7px 7px 7px 0;
+}
+
+.news-img-div {
+  width: 75px;
+  height: 75px;
+  background-image: url(../img/news1-img.webp);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+
+#new-src {
+  background-image: url("https://cdnp2.stackassets.com/65f5f980f81570ad275a6e5b98ae50fddf27d2bd/store/cd5216d68a6fa28b2dbe75e5d09ec1028abff04ebfefb11337a05eeb9665/sale_162668_primary_image.jpg");
+}
+
+#src2 {
+  background-image: url("https://cdnp3.stackassets.com/b34f2af9e9ec3122eb0c0b252532b61f8a08c0ea/store/243275a3bf8c7d20203d2e6e3b9f3664926f9f8913e755d1ae8811aecd9b/sale_25748_primary_image.jpg");
+}
+
+#src3 {
+  background-image: url("https://cdnp3.stackassets.com/55bf35ceb2c3f158db4c44c1f80d8b01d177d7f6/store/b3483f29e400abc9aad5e02516c7d8e59f961aff73c42f4ec7dc40bad315/sale_21597_primary_image.jpg");
+}
+
+#src4 {
+  background-image: url("https://cdnp2.stackassets.com/26338468c86933217e61c8e1b91e62bb175a9e14/store/4aa64566dee27750fa17510ef0f5812b9290a55bd9e26afe63506129df94/sale_168998_primary_image.jpg");
+}
+
+.discount-tag {
+  height: 80px;
+  width: 80px;
+  color: #000;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none;
+  float: right;
+}
+
+.transform {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+}
+
+/* Header ================= */
+header.main-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 7em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+}
+
+.option-left ul li {
+  float: left;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.option-right ul li {
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.middle-menue {
   display: none;
 }
 
@@ -186,19 +350,13 @@ nav ul {
   display: -ms-grid;
   display: grid;
   grid-template-columns: auto;
-  padding: 120px 20px 40px;
+  padding: 60px 20px 40px;
   max-width: 1192px;
   margin: 0 auto;
 }
 
 .headings {
   margin-bottom: 20px;
-}
-
-.headings h2 {
-  font-size: 28px;
-  letter-spacing: -0.5px;
-  font-family: "Avalon", sans-serif;
 }
 
 /* Footer Links ============== */
@@ -261,6 +419,12 @@ main.main-area {
   box-sizing: border-box;
   margin: 0 auto;
 }
+
+.categories-article-latest-news-link-list ul li {
+  padding: 0.25rem 0;
+}
+
+/*  Highlights */
 
 .highlights {
   padding: 5px;
@@ -518,4 +682,78 @@ main.main-area {
 .full-height {
   grid-column: 1 / 1;
   grid-row: 1 / 1;
+}
+
+/* Categories =========== */
+
+.categories {
+  display: grid;
+  padding: 0 1rem;
+}
+
+.categories-article-main-story {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/gamestop.jpg);
+  background-size: cover;
+  padding: 75% 1rem 1rem 1rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-article header {
+  font-family: Avalon, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.categories-article-main-story > span {
+  font-family: Shentox, sans-serif;
+}
+
+.categories-article-main-story > a > span {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.categories-article-main-story aside {
+  font-size: 0.7rem;
+  color: #aaa;
+}
+
+.categories-article-latest-header {
+  background-color: #fff3e9;
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+.categories-article-latest-header-text {
+  font-family: Shentox, sans-serif;
+  color: #f42;
+  font-size: 0.8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.categories-article-latest-header-img-container {
+  background-image: url(../img/alibaba.jpg);
+  background-size: cover;
+  background-position: -14rem;
+  height: 100%;
+  width: 7rem;
+}
+
+.categories-article-latest-news-link-list {
+  padding: 1rem;
+}
+
+.categories-article-latest-news-link-list ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #f42; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }

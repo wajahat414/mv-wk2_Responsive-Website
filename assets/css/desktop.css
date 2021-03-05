@@ -65,4 +65,16 @@
   .option-left {
     margin-left: 0;
   }
+
+  /* news section */
+
+  .news1 {
+    flex: 0 0 25%;
+  }
+
+  /*      CATEGORIES      */
+
+  .categories {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
