@@ -363,7 +363,6 @@ main.main-area {
 
 .latest-news {
   margin: 40px 20px 0 20px;
-  font-family: liberations-sans;
 }
 
 .latest-news h2 {
@@ -424,7 +423,7 @@ main.main-area {
 .news-img-div {
   width: 75px;
   height: 75px;
-  background-image: url(/assets/img/news1-img.webp);
+  background-image: url(../img/news1-img.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
