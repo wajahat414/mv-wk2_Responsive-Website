@@ -53,27 +53,57 @@ a {
   padding: 5px;
 }
 
-.option-menue ul li a {
+.main-story-container h2 a {
+  color: #f42;
+}
+
+.main-story-container li a {
+  color: #f42;
+  margin-top: 10px;
+  margin-right: 23px;
+  display: block;
+  font-size: 14px;
+}
+
+ul.footer-nav-links li a {
+  text-decoration: none;
+  color: #aaa;
+  font-family: "Shentox", sans-serif;
+  font-size: 100%;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.option-menu ul li a {
   color: rgba(255, 255, 255, 0.6);
   font-size: 13px;
 }
 
-.middle-menue ul li a {
+.middle-menu ul li a {
   color: rgb(170, 170, 170);
   font-size: 15px;
   font-weight: 400;
+  font-family: "Shentox", sans-serif;
 }
 
-.middle-menue {
+.main-story-container li a:hover {
+  color: black;
+}
+
+.main-story-container h2 a:hover {
+  color: black;
+}
+
+.middle-menu {
   display: none;
 }
 
-.option-menue ul li a:hover {
+.option-menu ul li a:hover {
   color: white;
   font-size: 13px;
 }
 
-.option-menue {
+.option-menu {
   width: 100%;
   height: 30px;
   background-color: #000;
@@ -81,12 +111,12 @@ a {
   justify-content: space-between;
 }
 
-.middle-menue ul li {
+.middle-menu ul li {
   float: left;
   padding: 15px;
 }
 
-.middle-menue ul li a:hover {
+.middle-menu ul li a:hover {
   color: black;
 }
 
@@ -156,33 +186,12 @@ nav ul {
   padding: 0 6px;
 }
 
-.main-story-container h2 a {
-  color: #f42;
-}
-
-.main-story-container li a {
-  color: #f42;
-  margin-top: 10px;
-  margin-right: 23px;
-  display: block;
-  font-size: 14px;
-}
-
-ul.footer-nav-links li a {
-  text-decoration: none;
-  color: #aaa;
-  font-family: "Shentox", sans-serif;
-  font-size: 100%;
-  font-weight: 500;
-  line-height: 24px;
-}
-
 /* Main Story Container ========== */
 .main-story-container {
   display: -ms-grid;
   display: grid;
   grid-template-columns: auto;
-  padding: 120px 20px 40px;
+  padding: 60px 20px 40px;
 }
 
 .main-story-container li a:hover {
@@ -191,6 +200,9 @@ ul.footer-nav-links li a {
 
 .main-story-container h2 a:hover {
   color: black;
+  padding: 120px 20px 40px;
+  max-width: 1192px;
+  margin: 0 auto;
 }
 
 .headings {
@@ -262,7 +274,6 @@ main.main-area {
   padding: 112px 0 331px;
   box-sizing: border-box;
   margin: 0 auto;
-  max-width: 1192px;
 }
 
 /*  Highlights */
@@ -272,6 +283,43 @@ main.main-area {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(3, 1fr);
+}
+
+.highlight-logo {
+  background: url('./assets/img/logo.svg') no-repeat;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  right: 24px;
+  height: 100%;
+  max-height: 112px;
+  max-width: 50%;
+  text-align: right;
+  background-size: contain;
+  display: none;
+}
+
+.highlight-logo-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  background: linear-gradient(155deg, #f42, #fff0 75%);
+  display: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.news-highlight.full-height:hover .highlight-logo-gradient {
+  opacity: 0;
+}
+
+.highlight-logo-date {
+  color: #fff;
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  z-index: 3;
+  display: none;
 }
 
 .highlights .news-highlight {
@@ -362,14 +410,29 @@ main.main-area {
 /*  latest news */
 
 .latest-news {
-  margin: 0 20px;
-  font-family: liberations-sans;
+  margin: 40px 20px 0 20px;
 }
 
 .latest-news h2 {
-  color: red;
   margin: 20px 0 10px;
+  display: flex;
+}
+
+.align-seemore {
+  text-align: end;
+  font-size: 0.5em;
+  font-style: normal;
+  font-weight: 100;
+  margin-top: 11px;
+}
+
+.latest-news h2 a {
+  color: red;
   width: 100%;
+}
+
+.latest-news h2 a:hover {
+  color: black;
 }
 
 .news1 a {
@@ -408,13 +471,52 @@ main.main-area {
 .news-img-div {
   width: 75px;
   height: 75px;
-  background-image: url(/assets/img/news1-img.webp);
+  background-image: url(../img/news1-img.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   display: block;
   float: left;
   margin-right: 15px;
+}
+
+#new-src {
+  background-image: url("https://cdnp2.stackassets.com/65f5f980f81570ad275a6e5b98ae50fddf27d2bd/store/cd5216d68a6fa28b2dbe75e5d09ec1028abff04ebfefb11337a05eeb9665/sale_162668_primary_image.jpg");
+}
+
+#src2 {
+  background-image: url("https://cdnp3.stackassets.com/b34f2af9e9ec3122eb0c0b252532b61f8a08c0ea/store/243275a3bf8c7d20203d2e6e3b9f3664926f9f8913e755d1ae8811aecd9b/sale_25748_primary_image.jpg");
+}
+
+#src3 {
+  background-image: url("https://cdnp3.stackassets.com/55bf35ceb2c3f158db4c44c1f80d8b01d177d7f6/store/b3483f29e400abc9aad5e02516c7d8e59f961aff73c42f4ec7dc40bad315/sale_21597_primary_image.jpg");
+}
+
+#src4 {
+  background-image: url("https://cdnp2.stackassets.com/26338468c86933217e61c8e1b91e62bb175a9e14/store/4aa64566dee27750fa17510ef0f5812b9290a55bd9e26afe63506129df94/sale_168998_primary_image.jpg");
+}
+
+.discount-tag {
+  height: 80px;
+  width: 80px;
+  color: #000;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none;
+  float: right;
+}
+
+.transform {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
 }
 
 /* Footer Legal ================ */
