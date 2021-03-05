@@ -76,6 +76,14 @@ body {
   color: #f42;
 }
 
+.main-story-container li a {
+  color: #f42;
+  margin-top: 10px;
+  margin-right: 23px;
+  display: block;
+  font-size: 14px;
+}
+
 .news1 ul li a {
   color: #aaa;
   font-size: 12px;
@@ -100,6 +108,18 @@ ul.footer-nav-links li a {
   font-size: 100%;
   font-weight: 500;
   line-height: 24px;
+}
+
+.option-menu ul li a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+}
+
+.middle-menu ul li a {
+  color: rgb(170, 170, 170);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Shentox", sans-serif;
 }
 
 .categories-article > header a:hover {
@@ -235,47 +255,6 @@ header.main-header {
 
 .middle-menue {
   display: none;
-}
-
-.main-story-container h2 a {
-  color: #f42;
-}
-
-.main-story-container li a {
-  color: #f42;
-  margin-top: 10px;
-  margin-right: 23px;
-  display: block;
-  font-size: 14px;
-}
-
-ul.footer-nav-links li a {
-  text-decoration: none;
-  color: #aaa;
-  font-family: "Shentox", sans-serif;
-  font-size: 100%;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.option-menu ul li a {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 13px;
-}
-
-.middle-menu ul li a {
-  color: rgb(170, 170, 170);
-  font-size: 15px;
-  font-weight: 400;
-  font-family: "Shentox", sans-serif;
-}
-
-.main-story-container li a:hover {
-  color: black;
-}
-
-.main-story-container h2 a:hover {
-  color: black;
 }
 
 .option-menu ul li a:hover {
