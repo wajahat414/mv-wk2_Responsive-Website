@@ -554,12 +554,26 @@ main.main-area {
 }
 
 .categories-article-main-story {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/gamestop.jpg);
-  background-size: cover;
   padding: 75% 1rem 1rem 1rem;
   color: #fff;
   display: flex;
   flex-direction: column;
+  height: 8rem;
+}
+
+.categories-article-gamestop {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/gamestop.jpg);
+  background-size: cover;
+}
+
+.categories-article-google-maps {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/google-maps.webp);
+  background-size: cover;
+}
+
+.categories-article-robot {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(../img/vintage-robot.jpg);
+  background-size: cover;
 }
 
 .categories-article header {
